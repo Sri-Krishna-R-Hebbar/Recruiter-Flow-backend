@@ -1,0 +1,16 @@
+{
+  "name": "recruiter-bot-backend",
+  "version": "1.0.0",
+  "description": "Recruiter Bot: ranks candidates for jobs (and jobs for candidates). Express + SQLite, raw SQL only.",
+  "main": "src/server.js",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
